@@ -1,12 +1,22 @@
-# React + Vite
+Hello 🌞
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Interactive Banner Assessment
 
-Currently, two official plugins are available:
+This project is a React-based implementation of an interactive 300x600px banner, built as part of a technical assessment for a Creative Developer position.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- Initial animation with a green ✔️ checkmark.
+- Four interactive tiles (Active, Cozy, Beauty, Home), each with a representative image.
+- Clicking on a tile opens a product carousel specific to that category.
+- Product data is simulated as if coming from a feed endpoint.
+- "Back to Checklist" functionality to return to the main tile view.
+- On load, one tile's carousel opens automatically at random.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Technologies Used
+
+- React (Vite)
+- JavaScript (ES6+)
+- CSS (Tailwind CSS - plain CSS)
+- Modular component structure
+- Simulated data feeds
