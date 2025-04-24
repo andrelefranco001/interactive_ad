@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://andrelefranco001.github.io/workanap/",
+  base: "https://andrelefranco001.github.io/interactive_ad/",
 });
